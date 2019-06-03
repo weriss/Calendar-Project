@@ -52,8 +52,8 @@ export default class Schedule extends Component {
                     dateNameStyle={{color: 'white'}}
                     highlightDateNumberStyle={{color: '#0DA463'}}
                     highlightDateNameStyle={{color: '#0DA463'}}
-                    iconLeft={require('./img/left-arrow.png')}
-                    iconRight={require('./img/right-arrow.png')}
+                    iconLeft={require('./image/left-arrow.png')}
+                    iconRight={require('./image/right-arrow.png')}
                     iconContainer={{flex: 0.1}}
                     onDateSelected={this._setDate}
                     ref='calendarStrip'
