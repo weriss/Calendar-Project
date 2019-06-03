@@ -193,7 +193,7 @@ export default class Schedule extends Component {
                 <Text style={{fontSize:15,color:'black',marginTop:Height*0.035}}>/</Text>
                 <Text style={{fontSize:15,color:'black',marginTop:Height*0.035}}>{item.item.month}</Text>
             </View>
-            <Image source={require('./img/duoyun.png')} style={{height:Height*0.1,width:Width*0.1,marginRight:5}} resizeMode='contain'></Image>
+            <Image source={require('./image/duoyun.png')} style={{height:Height*0.1,width:Width*0.1,marginRight:5}} resizeMode='contain'></Image>
             <View style={{width:Width*0.25,height:Height*0.1,justifyContent:'center',alignItems:'center',backgroundColor:'#E74C3D'}}>
                 <Text style={{fontSize:18,color:'white'}} onPress={(index)=>this._delete(item.index)}>Delete</Text>
             </View>
