@@ -93,7 +93,7 @@ export default class Schedule extends Component {
                                 style={{backgroundColor:'white',height:Height*0.07,width:Width*0.65,marginTop:2}}
                                 />
                             <TouchableOpacity style={{justifyContent:'center',alignItems:'center',marginTop:10,width:Width*0.65,height:Height*0.05,backgroundColor:'transparent',position:'relative'}} onPress={this._addNewTask} >
-                                <Image source={require('./img/ok.png')} style={{backgroundColor:'#0DA463',width:Width*0.18,height:Width*0.18,borderRadius:250,marginTop:30}}  resizeMethod='auto'/>
+                                <Image source={require('./image/ok.png')} style={{backgroundColor:'#0DA463',width:Width*0.18,height:Width*0.18,borderRadius:250,marginTop:30}}  resizeMethod='auto'/>
                             </TouchableOpacity>
                         </View>
                     </View>
